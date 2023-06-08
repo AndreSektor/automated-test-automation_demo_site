@@ -13,5 +13,4 @@ describe('Clear Form', () => {
         cy.clickRefresh()
         cy.validateFormClean()
     });
-    
 });
