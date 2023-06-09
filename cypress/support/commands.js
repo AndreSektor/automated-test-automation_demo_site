@@ -138,6 +138,11 @@ Cypress.Commands.add('fillConfirmPassword', () => {
         .type(gPassword)
 });//Função realiza preenchimento com o valor gPassword exportado 
 
+Cypress.Commands.add('attachPhoto', () => {
+    const imgPath = 'cy.png';
+    cy.get('#imagesrc').attachFile(imgPath);
+});
+    
 Cypress.Commands.add('clickSubmit', () => {
 
     cy.get('#submitbtn')
@@ -159,6 +164,7 @@ Cypress.Commands.add('fillTheForm', () => {
     cy.selectDateOfBirth()
     cy.fillPassword()
     cy.fillConfirmPassword()
+    cy.attachPhoto()
     cy.clickSubmit()
 });//Função chave realiza preenchimento completo do formulário
 
