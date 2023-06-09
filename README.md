@@ -92,19 +92,32 @@ $ npm install
 
 > cypress "Automação"
 
-## 🎲 Rodando os testes 
+## 🎲 Rodando os testes
 > Projeto conta com arquivo Makefile para fascilitar execução  
 
 - Com o terminal aberto
 - Digite o seguinte comando
+- MacOS:
+    - Interface
 ````
-$ make run
+$ make open
 ````
+- Windows:
+    - Interface   
+````
+$ npx cypress open
+````
+
 - Escolha um teste E2E(1-register ou 2-clearForm)
 - Assista a execução da automação
 - Caso deseje rodar em headless
+- MacOS
 ````
 $ make headless
+````
+- Windows
+````
+$ npx cypress run
 ````
 ## Autor 👋 
 
