@@ -15,4 +15,3 @@ Funcionalidade: Cadastro
     Então valido que o campo é submetido com sucesso.
     [Resultado esperado]
     - Validar que o usuário só poderá submeter o campo quando estiver conforme o campo Password
-

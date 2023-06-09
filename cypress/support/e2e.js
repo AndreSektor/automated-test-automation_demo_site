@@ -17,6 +17,5 @@
 import './commands'
 import 'faker'
 import 'cypress-file-upload';
-
 // Alternatively you can use CommonJS syntax:
 // require('./commands')

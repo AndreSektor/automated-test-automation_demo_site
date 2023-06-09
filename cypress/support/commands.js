@@ -34,7 +34,7 @@ Cypress.Commands.add('getTitle', (text) => {
         return texts.get(text)
     }
 
-    expect(false, `Title ${texto} unmapped!`).to.be.true 
+    expect(false, `Title ${text} unmapped!`).to.be.true 
 });//Função Map capaz de ser alimentada 
 
 Cypress.Commands.add('fillFirstName', () => {
@@ -93,8 +93,7 @@ Cypress.Commands.add('selectSkill', () => {
 
     cy.get('#Skills')
         .should('be.visible')
-        .select('Javascript')
-        
+        .select('Javascript')      
 });//Função realiza seleção FIXA no campo Skills
 
 Cypress.Commands.add('selectCountry', () => {
@@ -139,9 +138,11 @@ Cypress.Commands.add('fillConfirmPassword', () => {
 });//Função realiza preenchimento com o valor gPassword exportado 
 
 Cypress.Commands.add('attachPhoto', () => {
+
     const imgPath = 'cy.png';
+
     cy.get('#imagesrc').attachFile(imgPath);
-});
+});//Função realiza anexo de imagen
     
 Cypress.Commands.add('clickSubmit', () => {
 

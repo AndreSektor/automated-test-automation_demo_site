@@ -35,13 +35,15 @@
 
     Bug: Campo First Name 
     @BugFirstName
-    [Descrição do Bug - passo a passo]
+    [Descrição do Bug]
     - Ao acessar o campo FirstName usuário consegue digitar:
     - números 
     - caracteres especiais
     - espaços em branco
-    - submeter o campo vazio
+    - submeter o campo com espaço em branco
     - escrever mais de duas palavras
+    [Passo a passo]
+    - Acessar o campo First Name e realizar ação do item acima
 
     Bug: Campo Last Name 
     @BugLastName
@@ -65,8 +67,3 @@
     - Ao acessar o campo Email address:
     - o campo aceitar ser submetido com domínio inválido
     - o campo aceita ser submetido com abstinência de ".com, .br, etc..." 
-
- 
-
-
-

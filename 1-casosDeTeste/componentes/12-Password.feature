@@ -71,4 +71,3 @@ Funcionalidade: Cadastro
     Então valido que é exibida uma mensagme de erro informando a quantidade mínima é de 4 caracteres*.
     [resultado esperado]
     - Validar que o usuário seja informado ao digitar uma quantidade mínima de caracteres  
-   
