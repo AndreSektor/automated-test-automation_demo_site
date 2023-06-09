@@ -93,7 +93,7 @@ $ npm install
 > cypress "Automação"
 
 ## 🎲 Rodando os testes 
-> Projeto conta com arquivo .MAKEFILE para fascilitar execução  
+> Projeto conta com arquivo Makefile para fascilitar execução  
 
 - Com o terminal aberto
 - Digite o seguinte comando
@@ -102,6 +102,10 @@ $ make run
 ````
 - Escolha um teste E2E(1-register ou 2-clearForm)
 - Assista a execução da automação
+- Caso deseje rodar em headless
+````
+$ make headless
+````
 ## Autor 👋 
 
 [<img src="https://avatars.githubusercontent.com/u/111364510?s=96&v=4" width=115><br><sub>André Luís</sub>](https://github.com/AndreSektor)
