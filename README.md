@@ -10,10 +10,14 @@
 
 
 - [X] Etapa-1: Os testes deverão cobrir somente a página de register : https://demo.automationtesting.in/Register.html 
-    - Esta etapa foi construida dentro da pasta (1-casosDeTeste > componentes)
-    - Lá são abordados todos os possíveis testes em todos os componentes do formulário da página Register
+    - Esta etapa foi construida dentro da pasta (1-casosDeTeste > componentes) e (1-casosDeTeste > e2e)
+    - Lá são abordados todos os possíveis testes em todos os componentes e e2e do formulário da página Register
 <p aling="center">
    <img height="400" width="400"src="pictures/1-casos.png"/> 
+</p> 
+
+<p aling="center">
+   <img height="200" width="400"src="pictures/4-e2e.png"/> 
 </p> 
         
 - Bônus-1: Tomei a liberdade de apontar alguns bugs encontrados e estão reportados na pasta (2-bugs) 
@@ -47,16 +51,12 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 
 ## Clonando e instalando o projeto
 
-- Crie uma pasta na raiz do computador
-
-- Acesse a pasta do projeto pelo VSCode 
-
 - Clone o repositório do projeto com o comando abaixo 
 ````
 $ git clone https://github.com/AndreSektor/desafio-automation_demo_site.git
 ````
 
-# Com o terminal aberto instale as dependências rodando o comando
+# Acesse a pasta do projeto com a ferramenta do VScode e instale as dependências com o comando abaixo
 ````
 $ npm install
 ````
