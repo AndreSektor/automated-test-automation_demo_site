@@ -10,13 +10,24 @@
 
 
 - [X] Etapa-1: Os testes deverão cobrir somente a página de register : https://demo.automationtesting.in/Register.html 
-    - Esta etapa foi construida dentro da pasta (1-casosDeTeste > componentes)<img height="30" width="40"src="pictures/1-casos.png"/> 
+    - Esta etapa foi construida dentro da pasta (1-casosDeTeste > componentes)
     - Lá são abordados todos os possíveis testes em todos os componentes do formulário da página Register
-        - Bônus-1: Tomei a liberdade de apontar alguns bugs encontrados e estão reportados na pasta (2-bugs) <img height="30" width="40"src="pictures/2-bugs.png"/>
-        -  Bônus-2: Tomei a liberdade de apontar algumas melhorias que pude ver estão na pasta (3-melhorias) <img height="30" width="40"src="pictures/3-melhorias.png"/>
+<p aling="center">
+   <img height="400" width="400"src="pictures/1-casos.png"/> 
+</p> 
+        
+- Bônus-1: Tomei a liberdade de apontar alguns bugs encontrados e estão reportados na pasta (2-bugs) 
+<p aling="center">
+    <img height="200" width="400"src="pictures/2-bugs.png"/>
+</p>
+
+- Bônus-2: Tomei a liberdade de apontar algumas melhorias que pude ver estão na pasta (3-melhorias) 
+<p aling="center">
+    <img height="200" width="400"src="pictures/3-melhorias.png"/>
+</p>
+
 - [X] Etapa-2(opcional): Automação dos testes
     - Projeto construido em JavaScript + Cypress , voltado a recriar fluxos E2E
-
 
 <h1 align="center">
     <p align="center">Página para consulta</p>
