@@ -119,6 +119,12 @@ $ make headless
 ````
 $ npx cypress run
 ````
+
+## O projeto conta com execuções de teste no Github Actions
+> End-to-end Tests 🧪(Chrome : Microsoft Egde)
+> Pode ser acionado atravez de inserções por meio de PUSH no código
+- Para acessar o resultado da execução no GithubActions acesse a URL do repositório(ACTIONS > End-to-end Tests 🧪)
+
 ## Autor 👋 
 
 [<img src="https://avatars.githubusercontent.com/u/111364510?s=96&v=4" width=115><br><sub>André Luís</sub>](https://github.com/AndreSektor)
