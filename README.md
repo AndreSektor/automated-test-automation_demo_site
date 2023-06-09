@@ -31,7 +31,7 @@
 
 <h1 align="center">
     <p align="center">Página para consulta</p>
-    <a href="https://www.cypress.io/"> Cypress </a><img height="30" width="40"src="pictures/cy.png"/>
+    <a href="https://www.cypress.io/"> Cypress </a><img height="30" width="40"src="cypress/fixtures/cy.png"/>
 </h1>
 
 ## Status do projeto
