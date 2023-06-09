@@ -218,6 +218,11 @@ Cypress.Commands.add('validateSelectsEmpty', () => {
     }
 });//Função valida se os campos de select mapeados estão vazios 
 
+Cypress.Commands.add('validateAttachedFieldEmpty', () => {
+
+    cy.get('#imagesrc').should('have.value', '') 
+});//Função valida se o campo Escolher arquivo mapeado está vazio 
+
 Cypress.Commands.add('validateChecksEmpty', () => {
 
     const checksRadios = [
@@ -242,4 +247,5 @@ Cypress.Commands.add('validateFormClean', () => {
     cy.validateAddressEmpty()
     cy.validateSelectsEmpty()
     cy.validateChecksEmpty()
+    cy.validateAttachedFieldEmpty()
 });//Função chave responsável por disparar todas as funções de validação

@@ -12,5 +12,6 @@ describe('Clear Form', () => {
 
         cy.clickRefresh()
         cy.validateFormClean()
+        cy.screenshot('clear_form', { capture: 'runner' })
     });
 });

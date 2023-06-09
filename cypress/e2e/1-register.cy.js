@@ -10,6 +10,7 @@ describe('Register', () => {
   it('Fill the form', () => {  
 
     cy.fillTheForm()
+    cy.screenshot('Register', { capture: 'runner' })
   });
   
 });  
