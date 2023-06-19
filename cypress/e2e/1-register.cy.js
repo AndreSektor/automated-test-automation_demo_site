@@ -13,4 +13,4 @@ describe('Register', () => {
     cy.screenshot('Register', { capture: 'runner' })
   });
   
-});  
+})
